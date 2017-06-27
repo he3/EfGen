@@ -19,8 +19,7 @@ function sortString(a, b) {
 
 async function go() {
     console.log("start");
-    let filePath = paths.efScalarFunctionClassFile(dbConfig.database, "dbo", "test");
-    await toFile(filePath, "test");
+
 
     // Tables
     // console.log("Getting table names...");
@@ -37,9 +36,6 @@ async function go() {
     //         throw("errored");
     //     }
     // }
-    //-------------------------------
-    // const specs = await schemaReader.table(dbConfig, "POR_NOIItem_D");
-    // await toFile(`./out/specs/${dbConfig.database}/${specs.name}.json`, specs);
 
 
     // Stored Procedures
