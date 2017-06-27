@@ -1,4 +1,4 @@
-# SqlSchemaReader
+# EfGen
 JS Entity Framework Code First Code Generator
 
 ## install
