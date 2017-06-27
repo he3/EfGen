@@ -1,0 +1,24 @@
+{
+  "name": "ef-gen",
+  "version": "0.0.1",
+  "description": "JS Entity Framework Code First Code Generator",
+  "main": "./ef-gen/index.js",
+  "scripts": {
+    "test": "node ./tests/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/he3/EfGen.git"
+  },
+  "author": "HE3",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/he3/EfGen/issues"
+  },
+  "homepage": "https://github.com/he3/EfGen#readme",
+  "dependencies": {
+    "mkdirp": "^0.5.1",
+    "sql-schema-reader": "^3.0.0",
+    "writefile": "^0.2.8"
+  }
+}

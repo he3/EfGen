@@ -1,0 +1,13 @@
+{
+    "efDataFolder": "./out/Data",
+    "efDataNamespace": "HE3.EfgenTest.Data",
+    "efDbContextName":"DbNameContext",
+    "databases": [
+        {
+            "database": "DbName",
+            "server": "db.server.com",
+            "username": "",
+            "password": ""
+        }
+    ]
+}
